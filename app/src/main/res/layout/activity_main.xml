@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C8D63"
+    android:backgroundTint="#3DDB83"
+    android:foregroundTint="#3DDB83"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/reds2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="AudioMediaPlayer2"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/reds" />
+
+    <ImageButton
+        android:id="@+id/grays"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="#656565"
+        android:onClick="AudioMediaPlayer"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/pinks"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E91E63"
+        android:onClick="AudioMediaPlayer9"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="colores en español e ingles"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/reds"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FC0000"
+        android:onClick="AudioMediaPlayer1"
+        android:tint="#FD0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/blacks"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#000000"
+        android:onClick="AudioMediaPlayer7"
+        android:tint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/greens"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="184dp"
+        android:backgroundTint="#75A33F"
+        android:onClick="AudioMediaPlayer4"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/whites"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="AudioMediaPlayer8"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/yellows"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FFEB3B"
+        android:onClick="AudioMediaPlayer3"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/blues"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="AudioMediaPlayer5"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/purples"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="304dp"
+        android:backgroundTint="#9C27B0"
+        android:onClick="AudioMediaPlayer6"
+        android:tint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
